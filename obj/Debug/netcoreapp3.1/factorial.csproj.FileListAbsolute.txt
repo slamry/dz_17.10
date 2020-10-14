@@ -1,0 +1,13 @@
+D:\vs\factorial\bin\Debug\netcoreapp3.1\factorial.exe
+D:\vs\factorial\bin\Debug\netcoreapp3.1\factorial.deps.json
+D:\vs\factorial\bin\Debug\netcoreapp3.1\factorial.runtimeconfig.json
+D:\vs\factorial\bin\Debug\netcoreapp3.1\factorial.runtimeconfig.dev.json
+D:\vs\factorial\bin\Debug\netcoreapp3.1\factorial.dll
+D:\vs\factorial\bin\Debug\netcoreapp3.1\factorial.pdb
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.csprojAssemblyReference.cache
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.AssemblyInfoInputs.cache
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.AssemblyInfo.cs
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.csproj.CoreCompileInputs.cache
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.dll
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.pdb
+D:\vs\factorial\obj\Debug\netcoreapp3.1\factorial.genruntimeconfig.cache
