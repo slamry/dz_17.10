@@ -59,23 +59,32 @@ namespace calcul
                             numb2 /= 10;
                         }
 
+                        int nuli;//для нулей нужно
                         if (number1.Count<number2.Count)//чтобы не было любимого out_of_range
                         {
-                            number1.Add(0);
+                            nuli = number2.Count - number1.Count;
+                            for (int i =0; i < nuli; i++)
+                            {
+                                number1.Add(0);
+                            }
                         }
                         else if (number1.Count > number2.Count)
                         {
-                            number2.Add(0);
+                            nuli = number1.Count - number2.Count;
+                            for (int i =0; i < nuli; i++)
+                            {
+                                number2.Add(0);
+                            }                            
                         }
 
-                        for (int i =0; i<number1.Count; i++)//таинство сложения
+                        for (int i =0; i<number1.Count; i++)//само сложение
                         {
                             number1[i] = number1[i] + number2[i] + tseloe;
                             tseloe = number1[i]/10;
                             number1[i] %= 10;
                             if (number1.Count==number2.Count && i==number1.Count-1 && tseloe>0)//длины равны, счетчик в конце, нужно место для целого
                             {
-                                number1.Add(tseloe);//тут бред творится
+                                number1.Add(tseloe);
                             }
                         }
 
